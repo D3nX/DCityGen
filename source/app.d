@@ -14,7 +14,6 @@ void loadOpenGLLib() {
 }
 
 void main() {
-	// SetTraceLogLevel(TraceLogLevel.LOG_WARNING | TraceLogLevel.LOG_ERROR);
 	Game game = new Game(1280, 720, "waou");
 
 	game.setState(new GameState(&game));

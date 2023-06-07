@@ -20,6 +20,7 @@ public:
         this.width = width;
         this.height = height;
         this.title = title;
+        SetTraceLogLevel(TraceLogLevel.LOG_WARNING | TraceLogLevel.LOG_ERROR);
         InitWindow(width, height, title.ptr);
         InitAudioDevice();
         SetTargetFPS(60);
