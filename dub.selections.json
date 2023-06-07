@@ -1,0 +1,10 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"bindbc-loader": "1.0.3",
+		"bindbc-opengl": "1.0.5",
+		"boilerplate": "1.9.1",
+		"raylib-d": "4.5.1",
+		"unit-threaded": "2.1.6"
+	}
+}

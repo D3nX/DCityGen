@@ -1,0 +1,27 @@
+{
+	"authors": [
+		"denis"
+	],
+	"copyright": "Copyright © 2023, denis",
+	"dependencies": {
+		"bindbc-opengl": "~>1.0.5",
+		"boilerplate": "~>1.9.1",
+		"raylib-d": "~>4.5.1"
+	},
+	"description": "A minimal D application.",
+	"lflags-linux": [
+		"-rpath=$$ORIGIN"
+	],
+	"lflags-osx": [
+		"-rpath",
+		"@executable_path/"
+	],
+	"lflags-posix": [
+		"-L."
+	],
+	"libs": [
+		"raylib"
+	],
+	"license": "proprietary",
+	"name": "runner3d"
+}

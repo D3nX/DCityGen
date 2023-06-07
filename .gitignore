@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/runner3d
+runner3d.so
+runner3d.dylib
+runner3d.dll
+runner3d.a
+runner3d.lib
+runner3d-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
