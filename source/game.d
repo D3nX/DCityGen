@@ -23,7 +23,9 @@ public:
         SetTraceLogLevel(TraceLogLevel.LOG_WARNING | TraceLogLevel.LOG_ERROR);
         InitWindow(width, height, title.ptr);
         InitAudioDevice();
-        SetTargetFPS(60);
+        SetTargetFPS(144);
+        ToggleFullscreen();
+        HideCursor();
     }
 
     ~this() {
@@ -36,7 +38,6 @@ public:
     }
 
     void run() {
-        SetWindowPosition(2400, 100);
         while (!WindowShouldClose()) {
             BeginDrawing();
             if (state) {
