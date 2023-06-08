@@ -8,7 +8,7 @@
 		"boilerplate": "~>1.9.1",
 		"raylib-d": "~>4.5.1"
 	},
-	"description": "A minimal D application.",
+	"description": "D City Generator",
 	"lflags-linux": [
 		"-rpath=$$ORIGIN"
 	],
